@@ -1,5 +1,5 @@
 module.exports = function (sequelize, dataTypes){
-    let alias = "Movie";
+    let alias = "Serie";
 
     let cols = {
         id: {
@@ -11,27 +11,21 @@ module.exports = function (sequelize, dataTypes){
         type: dataTypes.STRING(500),
         allowNull: true
       },
-      rating: {
-        type: dataTypes.DECIMAL(3, 1)
-      },
-      awards: {
-        type: dataTypes.INTEGER(10)
-      },
       release_date: {
         type: dataTypes.DATE
       },
-        length: {
-        type: dataTypes.INTEGER(10)
+      end_date: {
+        type: dataTypes.DATE
       }
     };
     
     let config = {
-        tableName : "movies", //nombre de la tabla //
+        tableName : "series", //nombre de la tabla //
         timestamps: false, //para saber las consultas de createdAt y updatedAt//
         underscored: true  //para permitir nombres de columnas que contengan guiones bajos //
     }
 
-    let Movie = sequelize.define(alias, cols, config);
+    let Serie = sequelize.define(alias, cols, config);
 
-    return Movie;
+    return Serie;
 }    
