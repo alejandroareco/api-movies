@@ -6,6 +6,7 @@ Para la tabla **movies**
 - Obtener todos los registros
 - Obtener un registro
 - Crear un nuevo registro
+
 Para cualquiera de las **tablas** (*actors, series, genres, episodes*)
 - Obtener todos los registros
 - Obtener un registro
