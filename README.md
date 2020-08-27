@@ -2,7 +2,7 @@
 
 ## Objetivo 
 Tener creada una api con los siguientes endpoints o recursos
-Para la tabla ** movies**
+Para la tabla **movies**
 - Obtener todos los registros
 - Obtener un registro
 - Crear un nuevo registro
@@ -28,7 +28,7 @@ Para obtener **todas** las peliculas, simplemente acceder a [/movies](http://loc
 Para obtener **un registro** en particular, acceder a [/movies/detail](http://localhost:3000/movies/detail/) y contatenar el numero de id que corresponda a la busqueda deseada.
 
 Para **crear** un registro nuevo en la Base de Datos, acceder mediante **POSTMAN** utilizando el metodo POST > Body > x-www-form-urlencoded
-la url (http://localhost:3000/movies/create). Recordar ingresar los key-values correspondientes:
+la url: (http://localhost:3000/movies/create). Recordar ingresar los key-values correspondientes:
 
 - title
 - rating
@@ -42,7 +42,7 @@ Para obtener **todas** las series, simplemente acceder a [/series](http://localh
 Para obtener **un registro** en particular, acceder a [/series/detail](http://localhost:3000/series/detail/) y contatenar el numero de id que corresponda a la busqueda deseada.
 
 Para **crear** un registro nuevo en la Base de Datos, acceder mediante **POSTMAN** utilizando el metodo POST > Body > x-www-form-urlencoded
-la url (http://localhost:3000/series/create). Recordar ingresar los key-values correspondientes:
+la url: (http://localhost:3000/series/create). Recordar ingresar los key-values correspondientes:
 
 - title
 - release_date
