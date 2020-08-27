@@ -16,11 +16,9 @@ module.exports = {
     create:function(req,res){
         db.Serie.create({
             title: req.body.title,
-            rating: req.body.rating,
-            awards: req.body.awards,
             release_date: req.body.release_date,
-            length: req.body.length
-        })
+            end_date: req.body.end_date
+            })
         .then(function(result) {
             return res.status(200).json(result)
         })
