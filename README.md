@@ -1,4 +1,4 @@
-#Creacion api-movies
+# Creacion api-movies
 
 ## Objetivo 
 Tener creada una api con los siguientes endpoints o recursos
@@ -12,19 +12,23 @@ Para cualquiera de las **tablas** (*actors, series, genres, episodes*)
 - Crear un nuevo registro
 
 La tabla seleccionada es **series**
-Source: movies_db
+
+**Source Database**: movies_db
 
 ## Endpoints
 localhost:3000/movies
+
 localhost:3000/series
 
 ## Como funciona?
 
 ### Movies
 Para obtener **todas** las peliculas, simplemente acceder a [/movies](http://localhost:3000/movies)
+
 Para obtener **un registro** en particular, acceder a [/movies/detail](http://localhost:3000/movies/detail/) y contatenar el numero de id que corresponda a la busqueda deseada.
+
 Para **crear** un registro nuevo en la Base de Datos, acceder mediante **POSTMAN** utilizando el metodo POST > Body > x-www-form-urlencoded
-la url http://localhost:3000/movies/create. Recordar ingresar los key-values correspondientes:
+la url (http://localhost:3000/movies/create). Recordar ingresar los key-values correspondientes:
 
 - title
 - rating
@@ -34,9 +38,11 @@ la url http://localhost:3000/movies/create. Recordar ingresar los key-values cor
 
 ### Series
 Para obtener **todas** las series, simplemente acceder a [/series](http://localhost:3000/series)
+
 Para obtener **un registro** en particular, acceder a [/series/detail](http://localhost:3000/series/detail/) y contatenar el numero de id que corresponda a la busqueda deseada.
+
 Para **crear** un registro nuevo en la Base de Datos, acceder mediante **POSTMAN** utilizando el metodo POST > Body > x-www-form-urlencoded
-la url http://localhost:3000/series/create. Recordar ingresar los key-values correspondientes:
+la url (http://localhost:3000/series/create). Recordar ingresar los key-values correspondientes:
 
 - title
 - release_date
